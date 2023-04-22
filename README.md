@@ -1,2 +1,0 @@
-# dotfiles
-Custom configuration
