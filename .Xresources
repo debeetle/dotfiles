@@ -1,1 +1,9 @@
-/home/trunk/.Xresources
+#make file highlight
+Xft.lcdfilter:  lcdlight
+Xft.antialias: true
+Xcursor.theme: pixelfun2
+Xcursor.size: 8
+Xft.autohint: false
+!Xft.hintstyle:  hintfull
+Xft.hinting: true
+
