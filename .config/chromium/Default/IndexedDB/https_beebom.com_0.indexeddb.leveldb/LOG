@@ -1,7 +1,0 @@
-2023/04/06-21:59:31.140 326b1 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_beebom.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/06-21:59:31.140 326b1 Recovering log #3
-2023/04/06-21:59:31.142 326b1 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_beebom.com_0.indexeddb.leveldb/000003.log 
-2023/04/06-22:00:09.276 354dc Level-0 table #5: started
-2023/04/06-22:00:09.280 354dc Level-0 table #5: 70876 bytes OK
-2023/04/06-22:00:09.281 354dc Delete type=0 #3
-2023/04/06-22:00:09.281 354dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

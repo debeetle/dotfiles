@@ -1,6 +1,0 @@
-2023/03/23-15:50:53.453 566b Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_www.triofox.com_0.indexeddb.leveldb since it was missing.
-2023/03/23-15:50:53.456 566b Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.triofox.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/23-15:52:59.163 8b60 Level-0 table #5: started
-2023/03/23-15:52:59.163 8b60 Level-0 table #5: 794 bytes OK
-2023/03/23-15:52:59.164 8b60 Delete type=0 #3
-2023/03/23-15:52:59.164 8b60 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

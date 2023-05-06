@@ -1,6 +1,0 @@
-2023/03/28-10:21:09.789 54b Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb since it was missing.
-2023/03/28-10:21:09.792 54b Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/28-10:51:41.221 1d04 Level-0 table #5: started
-2023/03/28-10:51:41.225 1d04 Level-0 table #5: 76859 bytes OK
-2023/03/28-10:51:41.226 1d04 Delete type=0 #3
-2023/03/28-10:51:41.226 1d04 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

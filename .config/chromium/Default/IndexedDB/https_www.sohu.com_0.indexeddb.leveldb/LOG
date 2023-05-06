@@ -1,7 +1,0 @@
-2023/04/21-17:19:12.436 2b93 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.sohu.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/21-17:19:12.436 2b93 Recovering log #3
-2023/04/21-17:19:12.436 2b93 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_www.sohu.com_0.indexeddb.leveldb/000003.log 
-2023/04/21-17:19:14.539 5631 Level-0 table #5: started
-2023/04/21-17:19:14.541 5631 Level-0 table #5: 1345 bytes OK
-2023/04/21-17:19:14.544 5631 Delete type=0 #3
-2023/04/21-17:19:14.544 5631 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

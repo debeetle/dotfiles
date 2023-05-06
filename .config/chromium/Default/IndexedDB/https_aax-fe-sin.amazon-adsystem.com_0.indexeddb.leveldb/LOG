@@ -1,6 +1,0 @@
-2023/03/13-13:08:37.169 7865 Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_aax-fe-sin.amazon-adsystem.com_0.indexeddb.leveldb since it was missing.
-2023/03/13-13:08:37.171 7865 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_aax-fe-sin.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/13-13:08:41.171 7865 Level-0 table #5: started
-2023/03/13-13:08:41.172 7865 Level-0 table #5: 411 bytes OK
-2023/03/13-13:08:41.173 7865 Delete type=0 #3
-2023/03/13-13:08:41.173 7865 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

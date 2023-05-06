@@ -1,2 +1,0 @@
-{Intel/Mesa Intel(R) UHD Graphics 770 (ADL-S GT1)/4.6 (Core Profile) Mesa 22.3.4}=SUPPORTED
-{Intel/Mesa Intel(R) UHD Graphics 770 (ADL-S GT1)/4.6 (Core Profile) Mesa 22.3.6}=SUPPORTED

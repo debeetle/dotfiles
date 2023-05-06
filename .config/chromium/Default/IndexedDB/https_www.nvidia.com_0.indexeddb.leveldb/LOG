@@ -1,6 +1,0 @@
-2023/03/13-18:21:19.608 1dca Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_www.nvidia.com_0.indexeddb.leveldb since it was missing.
-2023/03/13-18:21:19.610 1dca Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.nvidia.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/13-19:50:30.310 2133 Level-0 table #5: started
-2023/03/13-19:50:30.311 2133 Level-0 table #5: 817 bytes OK
-2023/03/13-19:50:30.312 2133 Delete type=0 #3
-2023/03/13-19:50:30.312 2133 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

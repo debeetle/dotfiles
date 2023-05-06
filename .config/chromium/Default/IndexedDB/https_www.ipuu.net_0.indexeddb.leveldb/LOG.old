@@ -1,6 +1,0 @@
-2023/04/19-16:30:51.549 95b Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_www.ipuu.net_0.indexeddb.leveldb since it was missing.
-2023/04/19-16:30:51.552 95b Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.ipuu.net_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/19-16:30:53.830 a7bf Level-0 table #5: started
-2023/04/19-16:30:53.836 a7bf Level-0 table #5: 1236 bytes OK
-2023/04/19-16:30:53.844 a7bf Delete type=0 #3
-2023/04/19-16:30:53.844 a7bf Manual compaction at level-0 from (begin) .. (end); will stop at (end)

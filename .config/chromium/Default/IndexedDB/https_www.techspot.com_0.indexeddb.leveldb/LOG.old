@@ -1,6 +1,0 @@
-2023/04/22-11:14:07.486 474 Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_www.techspot.com_0.indexeddb.leveldb since it was missing.
-2023/04/22-11:14:07.487 474 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.techspot.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/22-11:14:21.743 1afd Level-0 table #5: started
-2023/04/22-11:14:21.746 1afd Level-0 table #5: 3619 bytes OK
-2023/04/22-11:14:21.747 1afd Delete type=0 #3
-2023/04/22-11:14:21.747 1afd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

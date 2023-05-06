@@ -1,6 +1,0 @@
-2023/04/12-15:10:13.008 4da Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_k.sina.cn_0.indexeddb.leveldb since it was missing.
-2023/04/12-15:10:13.010 4da Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_k.sina.cn_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/12-15:12:26.815 18459 Level-0 table #5: started
-2023/04/12-15:12:26.816 18459 Level-0 table #5: 1496 bytes OK
-2023/04/12-15:12:26.817 18459 Delete type=0 #3
-2023/04/12-15:12:26.817 18459 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

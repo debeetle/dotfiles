@@ -1,7 +1,0 @@
-2023/04/25-17:15:58.160 421 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.douyin.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/25-17:15:58.160 421 Recovering log #3
-2023/04/25-17:15:58.161 421 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_www.douyin.com_0.indexeddb.leveldb/000003.log 
-2023/04/25-17:16:56.995 4661 Level-0 table #5: started
-2023/04/25-17:16:56.997 4661 Level-0 table #5: 2091 bytes OK
-2023/04/25-17:16:56.998 4661 Delete type=0 #3
-2023/04/25-17:16:56.998 4661 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
