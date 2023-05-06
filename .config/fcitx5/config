@@ -1,0 +1,80 @@
+[Hotkey]
+# Trigger Input Method
+TriggerKeys=
+# Enumerate when press trigger key repeatedly
+EnumerateWithTriggerKeys=False
+# Temporally switch between first and current Input Method
+AltTriggerKeys=
+# Enumerate Input Method Forward
+EnumerateForwardKeys=
+# Enumerate Input Method Backward
+EnumerateBackwardKeys=
+# Skip first input method while enumerating
+EnumerateSkipFirst=False
+# Enumerate Input Method Group Forward
+EnumerateGroupForwardKeys=
+# Enumerate Input Method Group Backward
+EnumerateGroupBackwardKeys=
+# Deactivate Input Method
+DeactivateKeys=
+# Toggle embedded preedit
+TogglePreedit=
+
+[Hotkey/ActivateKeys]
+0=Shift+Shift_L
+
+[Hotkey/PrevPage]
+0=Up
+
+[Hotkey/NextPage]
+0=Down
+
+[Hotkey/PrevCandidate]
+0=Shift+Tab
+
+[Hotkey/NextCandidate]
+0=Tab
+
+[Behavior]
+# Active By Default
+ActiveByDefault=True
+# Share Input State
+ShareInputState=No
+# Show preedit in application
+PreeditEnabledByDefault=True
+# Show Input Method Information when switch input method
+ShowInputMethodInformation=True
+# Show Input Method Information when changing focus
+showInputMethodInformationWhenFocusIn=False
+# Show compact input method information
+CompactInputMethodInformation=True
+# Show first input method information
+ShowFirstInputMethodInformation=False
+# Default page size
+DefaultPageSize=4
+# Override Xkb Option
+OverrideXkbOption=False
+# Custom Xkb Option
+CustomXkbOption=
+# Force Enabled Addons
+EnabledAddons=
+# Preload input method to be used by default
+PreloadInputMethod=True
+
+[Behavior/DisabledAddons]
+0=chttrans
+1=classicui
+2=clipboard
+3=emoji
+4=fcitx4frontend
+5=ibusfrontend
+6=kimpanel
+7=notifications
+8=pinyin
+9=punctuation
+10=quickphrase
+11=spell
+12=table
+13=wayland
+14=waylandim
+

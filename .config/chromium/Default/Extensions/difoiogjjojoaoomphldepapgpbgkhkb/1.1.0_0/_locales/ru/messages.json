@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "message": "Боковая панель ChatGPT в качестве помощника по искусственному интеллекту на любой странице"
+   },
+   "appDescEdge": {
+      "message": "Sider -- боковая панель AI на базе ChatGPT OpenAI"
+   },
+   "appName": {
+      "message": "ChatGPT Sidebar - Support GPT-4 for Plus user"
+   },
+   "appNameEdge": {
+      "message": "Sider -- AI Sidebar"
+   }
+}

@@ -1,0 +1,6 @@
+2023/04/04-10:52:28.795 851 Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_archive.org_0.indexeddb.leveldb since it was missing.
+2023/04/04-10:52:28.796 851 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_archive.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/04-11:01:42.339 2781 Level-0 table #5: started
+2023/04/04-11:01:42.340 2781 Level-0 table #5: 1418 bytes OK
+2023/04/04-11:01:42.341 2781 Delete type=0 #3
+2023/04/04-11:01:42.341 11ad Manual compaction at level-0 from (begin) .. (end); will stop at (end)

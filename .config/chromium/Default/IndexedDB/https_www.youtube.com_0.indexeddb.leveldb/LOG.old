@@ -1,0 +1,15 @@
+2023/04/29-11:20:27.332 cf5 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/29-11:20:27.333 cf5 Recovering log #67
+2023/04/29-11:20:27.340 cf5 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000067.log 
+2023/04/29-11:23:45.819 cf5 Level-0 table #73: started
+2023/04/29-11:23:45.832 cf5 Level-0 table #73: 682214 bytes OK
+2023/04/29-11:23:45.834 cf5 Delete type=0 #67
+2023/04/29-11:23:45.835 cf5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/29-11:23:45.836 cf5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0b\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 94823 : 1
+2023/04/29-11:23:45.836 cf5 Compacting 1@1 + 1@2 files
+2023/04/29-11:23:45.845 cf5 Generated table #74@1: 395 keys, 45767 bytes
+2023/04/29-11:23:45.845 cf5 Compacted 1@1 + 1@2 files => 45767 bytes
+2023/04/29-11:23:45.846 cf5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/29-11:23:45.846 cf5 Delete type=2 #70
+2023/04/29-11:23:45.846 cf5 Delete type=2 #73
+2023/04/29-11:23:45.846 cf5 Manual compaction at level-1 from '\x00\x0b\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 94823 : 1 .. (end); will stop at (end)

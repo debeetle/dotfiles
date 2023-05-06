@@ -1,0 +1,449 @@
+{
+  "sidebar": "側邊欄",
+  "shortcut": "快捷鍵",
+  "ask": "問",
+  "save": "保存",
+  "saved": "已保存",
+  "delete": "刪除",
+  "remove": "移除",
+  "cancel": "取消",
+  "ok": "好的",
+  "submit": "提交",
+  "attention": "注意",
+  "send": "發送",
+  "copy": "複製",
+  "copied": "已復制",
+  "clear": "清除",
+  "collapse": "收起側邊欄",
+  "done": "完畢",
+  "manage": "管理",
+  "template": "模板",
+  "edit": "編輯",
+  "add": "添加",
+  "feedback": "反饋",
+  "tweetit": "發推",
+  "fullPageChat": "整頁聊天",
+  "whatNew": "新功能",
+  "gotIt": "知道了",
+  "settings": "設置",
+  "signin": "登錄",
+  "share": "分享",
+  "myChats": "我的聊天記錄",
+  "general": "通用配置",
+  "archive": "歸檔",
+  "searchPage": "搜索頁面",
+  "addons": "插件",
+  "webStore": "網上商店",
+  "webApp": "網絡應用",
+  "language": "語言",
+  "theme": "主題",
+  "model": "模型",
+  "version": "版本",
+  "more": "更多的",
+  "listen": "聽",
+  "skip": "跳過",
+  "vote": "投票",
+  "customPrompt": "自定義提示",
+  "currentTpl": "當前模板：",
+  "editTpl": "編輯此模板",
+  "delteTpl": "刪除此模板",
+  "restoreTpl": "恢復此模板",
+  "archiveTpl": "存檔此模板",
+  "showTpl": "顯示此模板",
+  "promptName": "提示名稱",
+  "promptContent": "提示內容",
+  "contactUs": "聯繫我們",
+  "issueType": "問題類型",
+  "pinExt": "固定擴展",
+  "yourEmailAddress": "您的電子郵件地址",
+  "troubleshooting": "故障排除",
+  "openSidebar": "打開側邊欄",
+  "pasteSelection": "粘貼選擇",
+  "pasteTextPage": "從頁面粘貼文本",
+  "getAnotherKey": "獲取另一個密鑰",
+  "showSearchPanel": "顯示搜索面板",
+  "getItNow": "立即獲取",
+  "notNow": "現在不要",
+  "alwaysDisplay": "始終顯示",
+  "queries": "查詢",
+  "perDay": "每天",
+  "total": "總計",
+  "getMore": "獲取更多",
+  "goPremium": "升級到高級",
+  "myAccount": "我的賬戶",
+  "popupPage": {
+    "thank": "感謝您使用 {{APP_NAME}} 擴展程序！",
+    "desc": "當前頁面是唯一頁面，側邊欄功能不可用。 但是，您可以打開一個完整的頁面來聊天！",
+    "chatNow": "現在聊天"
+  },
+  "setupPage": {
+    "welcome": "歡迎使用{{APP_NAME}}！ 這是您旅程的開始：",
+    "pinTips": "固定 {{APP_NAME}} 以便於訪問",
+    "stepTitle": "要更輕鬆地訪問 {{APP_NAME}}，請按照以下步驟固定側邊欄圖標：",
+    "step1": "單擊個人資料頭像旁邊的拼圖圖標 {{icon}}。",
+    "step2": "在下拉菜單中，找到{{APP_NAME}}。",
+    "step3": "單擊“固定圖標”將其固定。",
+    "pinGuideDesc": "為了使訪問擴展更容易，請按照以下步驟讓它保持固定狀態。\n1. 單擊個人資料頭像旁邊的拼圖圖標 <b>ICON</b>。\n2. 在下拉菜單中，找到{{APP_NAME}}。\n3. 單擊圖釘圖標直到它變成藍色。",
+    "signInGuideTitle": "立即登錄以解鎖以下內容：",
+    "signInGuideStep1": "跨計算機同步擴展設置",
+    "signInGuideStep2": "從不同的筆記本電腦訪問您的提示",
+    "signInGuideStep3": "保存聊天以備將來使用",
+    "signInGuideStep4": "通過鏈接分享聊天記錄",
+    "welcomeGuide": "歡迎使用{{APP_NAME}}",
+    "step1Label": "第一步",
+    "step2Label": "第二步",
+    "tryOut": "試用一下"
+  },
+  "getKeyPage": {
+    "welcome": "歡迎使用{{APP_NAME}}！ 這是您開始的旅程：",
+    "stepTitle": "如何獲取 API 密鑰。",
+    "step1": "第 1 步：獲取 API 密鑰",
+    "step1-1": "<i>登錄您的 OpenAI 帳戶</i> 如果您沒有帳戶，請在<b>此處</b>註冊",
+    "step1-2": "訪問 OpenAI API 密鑰頁面",
+    "step1-3": "創建一個新的密鑰並按如下方式複制它",
+    "step2": "第 2 步：將 API 密鑰粘貼到下面的框中",
+    "step2-tips": "不用擔心。 您的 API 密鑰僅在 ChatGPT 擴展中本地使用。 使用 API 比直接使用 ChatGPT 更穩定。",
+    "step3": "第 3 步：在<i>此處</i>查看您的積分"
+  },
+  "optionPage": {
+    "howToAccess": "如何訪問 ChatGPT 並在任何地方使用它",
+    "howToAccessTip": "我們為大家提供了最全面的接入ChatGPT 方式，以幫助所有人都可以方便的使用AI。",
+    "recommend4all": "（推薦給大家）",
+    "sidebarProvider": "Sidebar 通過接入 ChatGPT 官方提供的<b>付費，穩定版API</b>。無需任何設置，為大家提供<b>無需科學上網，穩定，快速的服務</b>。為了讓任何人都能使用AI，我們為所有人提供了每天{{num}}條免費查詢額度。可<a>升級到為高級會員</a>以提升額度，同時支持我們 “<b>AI 普惠和平權</b>” 的使命。",
+    "webappProvider": "為 ChatGPT webapp 提供支持的 API 是免費的，但有時可能不穩定。",
+    "webappGPT4": "（ChatGPT Plus 用戶可以試用）",
+    "webappTip1": "如果您是 ChatGPT Plus 用戶，您現在可以選擇 GPT-4。 但是，OpenAI 可能會限制您每天可以發送的消息數量。",
+    "webappTip2": "請<m>固定 ChatGPT 選項卡</m>並在 ChatGPT 網站上保持登錄狀態。 但是，這可能無法保證穩定性。 如果您遇到任何問題，請訪問 <v>ChatGPT 網站</v>並刷新頁面。",
+    "GPT4Desc": "由於OpenAI 的限制，這種方式需要時刻保持你的ChatGPT 賬號處於登錄狀態。不穩定，可能需要經常刷新。",
+    "apiKeyProviderTip": "（推薦軟件開發者使用）",
+    "apiKeyProvider": "OpenAI 給軟件開發者的官方API 密鑰，穩定，需付費給OpenAI。",
+    "apiKeyLocally": "您的 API 密鑰存儲在您的瀏覽器本地，絕不會發送到其他任何地方。",
+    "ownURL": "使用我自己的網址",
+    "apiKeyTip1": "您的免費 OpenAI API 密鑰可能已過期。 請<a>在此處檢查 API 密鑰過期狀態。</a>",
+    "apiKeyTip2": "如果您使用免費的 OpenAI API 密鑰，在遇到高需求時，對 ChatGPT 的訪問可能會不穩定。",
+    "apiFreeGuide": "按照指南獲取 API 密鑰。",
+    "apiKeyGpt4Tip": "如果您輸入 GPT-4 API 密鑰，該擴展程序將支持 GPT-4。",
+    "displaySearchRes": "在搜索結果頁面旁邊顯示 ChatGPT 響應",
+    "whenToAsk": "何時詢問 ChatGPT",
+    "promptTplForSearch": "谷歌和其他人的提示模板",
+    "addNewTplForSearch": "添加新的提示模板",
+    "launchSidebar": "啟動側邊欄",
+    "sidebarLocation": "側邊欄位置",
+    "sidebarLeftOrRight": "將側邊欄放在左側或右側",
+    "sidebarDisplayOption": "側邊欄顯示模式",
+    "sidebarDisplayOptionTip": "選擇邊欄在頁面上的顯示方式",
+    "sidebarDisplayOptions": {
+      "overlay": "覆蓋",
+      "expand": "展開"
+    },
+    "sidebarIcon": "側邊欄圖標",
+    "sidebarIconAccess": "通過位於頁面右下角的圖標訪問側邊欄。 您可以拖動它上下移動",
+    "easiestWayUse": "使用{{APP_NAME}}的最簡單方法",
+    "displayWhenSelect": "選擇文本時顯示",
+    "promptTplForSidebar": "側邊欄提示模板",
+    "dragSidebarTpl": "拖放以重新排序模板或存檔那些您不會使用的模板",
+    "addNewTplForSidebar": "添加新的提示模板",
+    "editSearchTplTip": "使用 {{keywords}} 來引用您的搜索關鍵字",
+    "editSearchTplPlaceholder": "提示內容中的 {{keywords}} 將自動替換為您的搜索關鍵字",
+    "editSidebarTplTip": "在此處粘貼或輸入內容",
+    "showOnList": "顯示在列表中",
+    "translatorNavTitle": "快速查詢",
+    "translatorTitle": "快速查找窗口",
+    "translatorFabTitle": "快速查找圖標",
+    "translatorFabDesc": "通過圖標訪問快速查找窗口。",
+    "translatorFabToggleLabel": "選擇文本時顯示",
+    "translatorTplTitle": "彈窗提示模板",
+    "translatorTplDesc": "第一個主模板將用作彈出窗口的默認命令。",
+    "translatorPrimaryTemplates": "主要模板",
+    "translatorTemplatesNotes": "*此彈出窗口與側邊欄共享相同的模板。 如需編輯或添加模板，請在<b>側邊欄設置</b>中進行修改。",
+    "translatorIntroTitle": "🤔 什麼是快速查找？",
+    "translatorIntroDesc": "快速查找是{{APP_NAME}}的一個快速操作，提供了一系列有用的工具。\n\n當您選擇文本時它會立即出現。 只需單擊一下，您就可以快速翻譯文本、重寫文本、獲取解釋等等。 此外，您還可以重新排列工具的順序並自定義您自己的提示。\n\n要激活{{APP_NAME}}，您需要做的就是點擊快速查找圖標。",
+    "translatorHostFabConfigLabel": "禁用快速查找的網站列表",
+    "feedbackTypes": {
+      "bug": {
+        "name": "問題報告",
+        "title": {
+          "label": "問題總結",
+          "tip": "用幾句話告訴我們出了什麼問題。"
+        },
+        "detail": {
+          "label": "問題詳情",
+          "tip": "請詳細描述出了什麼問題、您採取的任何操作以及收到的錯誤消息。"
+        }
+      },
+      "fr": {
+        "name": "功能要求",
+        "title": {
+          "label": "標題",
+          "tip": "你的要求是什麼？"
+        },
+        "detail": {
+          "label": "描述",
+          "tip": "請提供您想要的新功能的詳細描述。"
+        }
+      }
+    }
+  },
+  "sidebarPanel": {
+    "askChatGPT": "詢問 ChatGPT：",
+    "savePrompt": "保存提示",
+    "saveNewPrompt": "另存為新提示",
+    "replacePrompt": "更換提示",
+    "inputPlaceholder1": "輸入提示或從菜單中選擇",
+    "inputPlaceholder2": "在此處粘貼或輸入內容",
+    "startNewLine": "按 {{shortcut}} 開始新的一行",
+    "inputPlaceholderCodes": "在此處粘貼或輸入代碼",
+    "inputPlaceholderQA": "在此處粘貼或輸入問題",
+    "pressToSubmit": "按{{key}}提交",
+    "response": "回覆：",
+    "stopGenerating": "停止生成",
+    "regenerate": "重新生成響應",
+    "askTabLabel": "提問",
+    "chatTabLabel": "聊天",
+    "composeTabLabel": "撰寫"
+  },
+  "sidebarChatPanel": {
+    "newChat": "新聊天",
+    "chatHistory": "聊天記錄",
+    "prompts": "提示",
+    "inputPlaceholder": "輸入消息...",
+    "send": "發送",
+    "feedback": "反饋",
+    "share": "分享",
+    "deleteConfirmTitle": "要刪除此對話嗎？",
+    "deleteConfirmContent": "此操作無法撤消。",
+    "welcomeQues": [
+      {
+        "title": "🤔 用簡單的語言解釋複雜的概念",
+        "ques": "告訴我一些關於大爆炸的事情，這樣我就可以向我 5 歲的孩子解釋"
+      },
+      {
+        "title": "🧠 集思廣益前所未有的想法",
+        "ques": "請為我朋友的生日提供 10 個禮物創意"
+      },
+      {
+        "title": "💭 立即獲得朗朗上口的標題",
+        "ques": "為我撰寫有關 ChatGPT 用例的文章生成五個朗朗上口的標題"
+      }
+    ],
+    "textSelectedTip": "您選擇的文本",
+    "textSelectedSystemMsg": "你想用文本做什麼？",
+    "welcomeSystemMsg": "你好！ 今天我能為您提供什麼幫助？",
+    "chatActionTranslate": "翻譯成{{lang}}",
+    "addAPrompt": "添加提示",
+    "search": "搜索",
+    "continueInChat": "繼續聊天",
+    "userStopTip": "用戶取消了請求。",
+    "noChatHistory": "還沒有聊天記錄。",
+    "noSearchHistory": "未找到結果。"
+  },
+  "translator": {
+    "quickActions": "快速查找",
+    "disableHostFabLabel": "在本網站上禁用",
+    "disableFabLabel": "在所有網站上禁用"
+  },
+  "changeLogPage": {
+    "rate5Star": "<b>喜歡我們的擴展嗎？</b>請在網上商店給我們五顆星評價，以幫助我們成長",
+    "newInVersion": "{{versionId}} 版本的新功能",
+    "logs": {
+      "1_1_0": [
+        "新標籤頁中的完整聊天！",
+        "ChatGPT、Bing、Bard 一起來！",
+        "Bug修復"
+      ],
+      "1_0_13": [
+        "提問後繼續聊天",
+        "Plus 用戶在 GPT-4 和 GPT-3.5 之間切換",
+        "輕鬆訪問和搜索聊天記錄"
+      ],
+      "1_0_12": [
+        "跨計算機同步擴展設置",
+        "從不同的筆記本電腦訪問您的提示",
+        "保存聊天以備將來使用",
+        "通過鏈接分享聊天記錄"
+      ],
+      "1_0_11": [
+        "無需打開側邊欄即可通過彈出窗口快速訪問操作。",
+        "添加對其他語言的支持。",
+        "使用翻譯功能時保留用戶的語言偏好。",
+        "解決 GitHub 等平台上的快捷方式衝突。"
+      ],
+      "1_0_10": [
+        "現在支持 50 多種語言！"
+      ],
+      "1_0_8": [
+        "為 Plus 用戶支持 GPT-4！ 檢查設置頁面！"
+      ],
+      "1_0_7": [
+        "記住上次使用的提示",
+        "優化chatGPT面板在搜索頁面的位置",
+        "添加一個選項，將側邊欄頁內圖標放在左側",
+        "優化包大小",
+        "添加深色模式",
+        "支持您的 API url 代理"
+      ],
+      "1_0_6": [
+        "改進 Youtube 頁面中的摘要功能"
+      ],
+      "1_0_5": [
+        "記住側邊欄圖標的位置",
+        "改進快捷鍵",
+        "直接從側邊欄保存提示模板"
+      ],
+      "1_0_4": [
+        "重新排序下拉列表中的提示項",
+        "歸檔您不會使用的提示項",
+        "支持 50 多種語言的回覆"
+      ],
+      "1_0_3": [
+        "CMD/Ctrl + Enter 快速“提交”",
+        "在搜索結果頁面中隱藏面板的選項",
+        "支持ESC隱藏側邊欄",
+        "支持總結長文"
+      ],
+      "1_0_2": [
+        "添加停止按鈕以停止生成響應",
+        "更改折疊按鈕的位置"
+      ],
+      "1_0_1": [
+        "改進 Youtube 頁面中的摘要功能",
+        "修復一些與復制/粘貼和打印相關的錯誤"
+      ]
+    }
+  },
+  "producthuntPromote": {
+    "voteBtn": "對 Product Hunt 投票",
+    "sidebar2Banner1": "立即在 <b>Product Hunt</b> 上為我們投票以傳播信息。",
+    "sidebar2ModalTitle": "✨ Sidebar 2.0 總結",
+    "sidebar2ModalDesc": "• 聊天選項卡\n  • 快速查詢的快速查找\n  • 同步提示的帳戶\n  • 保存和分享聊天記錄\n  • 支持更多語言\n  • 支持 GPT-4",
+    "ios1Banner1": "投票給 ChitChat – ChatGPT iOS 應用程序 🎉",
+    "ios1Banner2": "讓我們轟轟烈烈地開始吧！ 😄",
+    "ios1ModalTitle": "✨ ChitChat iOS 應用程序的新功能",
+    "ios1ModalDesc": "• 從 ChatGPT 3.5 和 4 獲得答案\n• 機器人支持團隊在一處為您提供幫助\n  • 將您的 PDF 變成聊天機器人"
+  },
+  "searchTool": {
+    "questionMark": "通過在查詢後附加問號來觸發 ChatGPT",
+    "askForQuery": "向 ChatGPT 詢問此查詢",
+    "fiveStart": "喜歡這個擴展嗎？ 在{{store}}給我們一個 5 星評級",
+    "loginAndCloudflareCheck": "請在 {{web}} 登錄並通過 Cloudflare 檢查",
+    "braveTrouble": "還是行不通？ 關注{{url}}",
+    "cloudflareCheck": "OpenAI 需要每隔一段時間通過一次安全檢查。 如果這種情況持續發生，請在<i>擴展選項</i>中將 AI 提供程序更改為 OpenAI API。",
+    "failedResponse": "無法從 ChatGPT 加載響應：",
+    "waitResponse": "等待 ChatGPT 響應..."
+  },
+  "msg": {
+    "enterAPIKey": "請輸入您的 OpenAI API 密鑰",
+    "selectModel": "請選擇有效型號",
+    "changeSaved": "更改已保存",
+    "fiveStart": "給我們一個5星",
+    "pleaseContactUs": "請<a>聯繫我們</a>。",
+    "errSiderApiLimit": "您已經使用了我們提供的所有免費積分，請按照<i>此處的說明</i>從 OpenAI 獲取 API。",
+    "errSiderApiLimitDevice": "您已經使用了我們提供的所有免費積分。 <a>登錄</a>以獲得更多免費積分。",
+    "errSiderApiLimitLogin": "您已經使用了我們提供的所有免費積分。 ChatGPT API 價格昂貴，因此請升級到我們的<a>高級計劃</a>以支持我們。 如果有的話，您也可以免費使用自己的 <i>API 密鑰</i>。",
+    "errSiderApiLimitPremium": "您已用完所有積分，請<a>聯繫我們</a>。",
+    "errSiderDeviceBinded": "請<a>登錄</a>使用它。",
+    "errSiderNeedLogin": "請<a>登錄</a>。",
+    "errSiderTimeout": "請求超時。 請再試一次。",
+    "errSiderProcessing": "一次只有一條消息。 在發送另一條消息之前，請等待任何其他響應完成，或者稍等片刻。",
+    "errTrySiderAPI": "切換到 <i>ChatGPT Sidebar API</i> 以獲得穩定的訪問（適用於所有人）",
+    "errTrySiderAPI2": "或者在<a>設置頁面</a>中使用您自己的 API 密鑰（針對開發人員）",
+    "errChatGPTAuth": "請<m>單擊鏈接登錄</m>您的 ChatGPT 網頁，我們將幫助您固定它。 然後你可以在側邊欄中使用它。",
+    "errChatGPTAuthTipTitle": "如果它不起作用：",
+    "errChatGPTFailToFetch": "無法從 ChatGPT 獲得響應。",
+    "errOpenaiFailToFetch": "無法通過您的 API 密鑰從 OpenAI 獲得響應。",
+    "loginAndCloudflareCheck": "切換到 <a>Sidebar API</a> 以獲得穩定的訪問權限，或者在 <i>chat.openai.com</i> 登錄並通過 Cloudflare 檢查",
+    "invalidApiKey": "API 密鑰無效，請重新獲取。",
+    "getApiKeyGuide": "您需要一個 OpenAI API 密鑰才能使其工作。 按照我們的指南獲取 API 密鑰。",
+    "thankForFeedback": "謝謝。 表單已成功提交。 我們將盡快與您聯繫。",
+    "writeSomething": "請寫點什麼。",
+    "enterEmail": "輸入電子郵件地址以接收有關該問題的更新。",
+    "emailRequired": "電子郵件是必需的。",
+    "promptNameRequired": "提示名稱是必需的。",
+    "nameYourPrompt": "為您的提示命名",
+    "promptTplRequired": "提示模板是必需的。",
+    "deletePromptWarn": "是否要刪除此提示模板？",
+    "restorePromptWarn": "是否要恢復此提示模板？",
+    "notValidEmail": "不是有效的電子郵件",
+    "pleaseSignin": "請登錄。",
+    "signinTips": "登錄以同步您的提示和設置",
+    "signinAward": "登錄以獲得每天 {{num}} 個查詢",
+    "chatgptTabGuardTips": "請保持此標籤打開，現在您可以返回{{APP_NAME}}",
+    "chatgptTabGuardRefreshingTips": "ChatGPT 出了點問題。 正在重新連接，請稍候...",
+    "chatgptTabGuardRefreshingTips1": "ChatGPT 出了點問題。",
+    "chatgptTabGuardRefreshingTips2": "正在重新連接，請稍候...",
+    "chatgptTabGuardSetupSuccessTips": "已修復，請重試"
+  },
+  "options": {
+    "theme": {
+      "auto": "自動",
+      "light": "明亮模式",
+      "dark": "黑暗模式"
+    },
+    "triggerMode": {
+      "always": {
+        "title": "總是",
+        "desc": "在每次搜索時詢問 ChatGPT"
+      },
+      "questionMark": {
+        "title": "問號",
+        "desc": "詢問 ChatGPT 關鍵字是否以問號（？）結尾"
+      },
+      "manually": {
+        "title": "手動",
+        "desc": "僅在單擊按鈕時詢問 ChatGPT"
+      }
+    },
+    "sidebarLocation": {
+      "left": "左邊",
+      "right": "右邊"
+    },
+    "searchPromptTpl": {
+      "default": {
+        "title": "默認",
+        "template": "你能告訴我一些關於{{keywords}}的事情嗎？ 如果可能的話，你能給我一些關於它的鏈接嗎？ 如果{{keywords}}是代碼相關的問題，請只寫代碼"
+      },
+      "list": {
+        "title": "問題關鍵詞",
+        "template": "列出 1 個關於“{{keywords}}”的最常見問題。 然後，回答這個問題。 最後，列出另外4個問題。"
+      },
+      "suggest": {
+        "title": "獲取相關關鍵詞",
+        "template": "{{keywords}} 是我在 Google 中的搜索關鍵字。 請給我5組相關關鍵詞。"
+      }
+    },
+    "sidebarPromptTpl": {
+      "summarize": {
+        "title": "總結",
+        "template": "給一個二年級的學生總結一下："
+      },
+      "similar-pages": {
+        "title": "相似頁面",
+        "template": "通過鏈接找到 10 個與以下內容相似的頁面："
+      },
+      "grammar": {
+        "title": "語法",
+        "template": "將其更正為標準英語："
+      },
+      "explain": {
+        "title": "解釋",
+        "template": "解釋以下內容："
+      },
+      "explain-codes": {
+        "title": "解釋代碼",
+        "template": "解釋以下代碼："
+      },
+      "rewrite": {
+        "title": "改寫",
+        "template": "重寫以下內容："
+      },
+      "translate": {
+        "title": "翻譯",
+        "template": "將以下內容翻譯成{{lang}}語言："
+      },
+      "qa": {
+        "title": "問答",
+        "template": "回答這個問題："
+      }
+    }
+  }
+}

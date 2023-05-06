@@ -1,0 +1,171 @@
+#!/bin/bash
+
+#default_dir=/    # Default (and fallback) directory, can be accesed by entering tilde ~
+default_dir=$(pwd)    # Default (and fallback) directory, can be accesed by entering tilde ~
+open_command="xdg-open"    # Default command to open files     
+fm_command="alacritty"    # Defualt file manager/terminal
+#dmenu_options=" -z 1000 -wm -i -nb #000000 -nf #ffffff -sb #002255 -sf #ffffff -fn xft:style=regular:pixelsize=16"    # Dmenu settings; See man dmenu for more info
+dmenu_options=" -z 1000 -x 1420 -y 800 -wm"    # Dmenu settings; See man dmenu for more info
+
+
+config_dir=$(pwd)     # The script and .log and _bookmark file
+
+#if [ -f "./fm.log" ]; then    # Getting the starting directory (either the last one, saved in fm.log, or the default one)
+    #curr=$(cat ./fm.log)    
+#else
+    #curr=$default_dir
+#fi
+curr=$default_dir
+
+
+var=1
+message=""
+bookmark=0
+hidden=1
+stat=1
+
+while [ -d "$curr" -a $var == 1 ]
+do
+    if [ $stat == 1 ]; then
+	cd "$curr"
+    fi
+    direc="$curr"
+    
+    if [ $hidden == 1 ]; then    # Hidden files visible or invisible
+	ls_command="ls -a"
+    else
+	ls_command="ls"
+    fi
+
+    current=$(pwd | sed 's/.*\///g')
+    if [ $bookmark == 0 ]; then    # Running Dmenu appropriately    
+	if [ "$message" == "" ]; then
+	    output=$(eval "$ls_command -Bpc --group-directories-first" | eval 'dmenu -p "$current" $dmenu_options')
+	    status=$?
+	else
+	    output=$(eval "$ls_command -Bpc --group-directories-first" | eval 'dmenu -p "$message" $dmenu_options')
+	    status=$?
+	fi
+    else
+	if [ "$message" == "" ]; then
+	    folder=$(cat $config_dir/fm_bookmark | sed 's/,.*//g' | eval 'dmenu -p Bookmarks: $dmenu_options')
+	    status=$?
+	else
+	    folder=$(cat $config_dir/fm_bookmark | sed 's/,.*//g' | eval 'dmenu -p "$message" $dmenu_options')
+	    status=$?
+	fi
+    fi
+    
+    message=""
+    if [ $bookmark == 1 ]; then    # Bookmark mode
+	if [ $status == 0 ]; then
+	    temp=$(cat $config_dir/fm_bookmark | grep "$folder",  | sed 's/.*, //g');
+	    if [ -d "$temp" ]; then    # Jump to bookmarked folder
+		bookmark=0;
+		cd "$temp"
+		curr=$temp
+	    else
+		test=$(echo "$folder" | awk '{ print substr( $0, length($0)-2, length($0)) }');
+		if [ "$test" = " rm" ]; then    # Remove bookmark
+		    folder_parsed=$(echo "$folder" | awk '{ print substr( $0, 0, length($0)-3) }');
+		    touch $config_dir/fm_bookmark_1
+		    cat $config_dir/fm_bookmark | grep -v "$folder_parsed", > $config_dir/fm_bookmark_1
+		    mv $config_dir/fm_bookmark_1 $config_dir/fm_bookmark
+		fi
+		test=$(echo "$folder" | awk '{ print substr( $0, length($0)-3, length($0)) }');
+		if [ "$test" = " top" ]; then    # Move bookmark to the top
+		    folder_parsed=$(echo "$folder" | awk '{ print substr( $0, 0, length($0)-4) }');
+		    touch $config_dir/fm_bookmark_1
+		    cat $config_dir/fm_bookmark | grep "$folder_parsed",  > $config_dir/fm_bookmark_1
+		    cat $config_dir/fm_bookmark | grep -v "$folder_parsed", >> $config_dir/fm_bookmark_1
+		    mv $config_dir/fm_bookmark_1 $config_dir/fm_bookmark
+		fi
+	    fi
+	else
+	    bookmark=0;
+	fi
+	
+    else
+    if [ $status == 0 ]; then
+	stat=1
+	if [ "$output" = "/." ]; then    # Toggle "view hidden files"	  
+	    stat=0
+	    if [ $hidden == 0 ]; then
+		hidden=1
+	    else
+		hidden=0
+	    fi
+	fi
+	if [ "$output" = ".." ]; then    # Jump to parent directory
+	    cd ..
+	    curr=$(pwd)
+	    stat=0
+	fi
+	if [ "$output" = "~" ]; then    # Jump to dafault directory
+	    cd "$default_dir"
+	    curr=$default_dir
+	    stat=0
+	fi
+	if [ "$output" = "\\" ]; then    # Set bookmark mode on    
+	    bookmark=1
+	    stat=0
+	fi
+	
+	test=$(echo "$output" | awk '{ print substr( $0, 0, 4) }');
+	if [ "$test" = "add " ]; then    # Add to bookmark
+	    stat=0
+	    name=$(echo "$output" | sed 's/add //g')
+	    conflict_name=$(cat $config_dir/fm_bookmark | grep "$name", )
+	    exists_name=$(cat $config_dir/fm_bookmark | grep ", "$(pwd)""$)
+	    if [ "$conflict_name" == "" -a "$exists_name" == "" ]; then    
+		echo "$name, $(pwd)" >> $config_dir/fm_bookmark
+		message="Bookmark "$name" added"
+	    fi
+	    if [ "$exists_name" != "" ]; then    # Existing bookmark warning (to avoid double bookmark)
+		already_name=$(echo $exists_name | sed 's/, .*//g')
+		message="Already under "$already_name""
+	    else
+		if [ "$conflict_name" != "" ]; then    # Bookmark name conflict warning
+		    message="Bookmark name already exists"
+		fi
+	    fi
+	fi
+	
+	if [ $stat == 1 ]; then    # To jump to new folder
+	    curr="$direc/$output"
+	fi
+    else
+	var=0
+    fi
+    fi
+done
+
+
+
+#echo "$(pwd)" > $config_dir/fm.log    # Logging current folder for future start
+
+if [ -e "$curr" -a $var == 1 ]; then    # Open the file
+    var=0
+    exec $open_command "$curr" 
+else
+    if [ $var == 1 ]; then 
+	if [ "$output" = "\\\\" ]; then    # Start the terminal/file manager app
+	    exec $fm_command
+	fi
+	first_part=$(echo "$output" | sed 's/ .*//g')
+	if [ ! -e "$first_part" ]; then    # Run the input command
+	    exec $output
+	else
+	    command=$(echo "$output" | sed 's/^\([^ ]*\) \(.*\)/\2 \1/')
+	    command1=$(echo "$command" | sed 's/ .*$//g')		    
+	    if [ "$command1" = "cp" -o "$command1" = "mv" ]; then    # Run cp or mv commands with the target specified
+		command_parsed=$(echo $command | sed 's/^[^ ]* //g')
+		command2=$(echo "$command_parsed" | sed 's/ [^ ]*$//g')
+		command3=$(echo "$command_parsed" | sed 's/^.* //g')
+		exec $command1 "$command3" "$command2"
+	    else
+		exec $command    # Run a command on the selected file
+	    fi
+	fi
+    fi
+fi

@@ -1,0 +1,12 @@
+2023/05/03-09:47:01.965 5d1 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/MANIFEST-000204
+2023/05/03-09:47:01.966 5d1 Recovering log #312
+2023/05/03-09:47:01.998 5d1 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/000312.log 
+2023/05/03-09:52:04.304 5d2 Level-0 table #318: started
+2023/05/03-09:52:04.356 5d2 Level-0 table #318: 1066385 bytes OK
+2023/05/03-09:52:04.359 5d2 Delete type=0 #312
+2023/05/03-09:52:04.395 5d1 Compacting 1@1 + 1@2 files
+2023/05/03-09:52:04.476 5d1 Generated table #319@1: 5429 keys, 1615622 bytes
+2023/05/03-09:52:04.476 5d1 Compacted 1@1 + 1@2 files => 1615622 bytes
+2023/05/03-09:52:04.477 5d1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/03-09:52:04.477 5d1 Delete type=2 #315
+2023/05/03-09:52:04.477 5d1 Delete type=2 #318

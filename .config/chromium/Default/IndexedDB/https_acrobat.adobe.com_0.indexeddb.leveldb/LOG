@@ -1,0 +1,7 @@
+2023/04/04-17:04:49.152 bcad Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_acrobat.adobe.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/04-17:04:49.152 bcad Recovering log #3
+2023/04/04-17:04:49.153 bcad Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_acrobat.adobe.com_0.indexeddb.leveldb/000003.log 
+2023/04/04-17:05:25.649 bcad Level-0 table #5: started
+2023/04/04-17:05:25.652 bcad Level-0 table #5: 38677 bytes OK
+2023/04/04-17:05:25.653 bcad Delete type=0 #3
+2023/04/04-17:05:25.653 bcad Manual compaction at level-0 from (begin) .. (end); will stop at (end)

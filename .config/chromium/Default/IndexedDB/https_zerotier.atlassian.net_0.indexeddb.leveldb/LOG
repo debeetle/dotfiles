@@ -1,0 +1,12 @@
+2023/03/25-17:35:01.811 84fa Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_zerotier.atlassian.net_0.indexeddb.leveldb since it was missing.
+2023/03/25-17:35:01.813 84fa Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_zerotier.atlassian.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/25-17:41:21.176 84fa Level-0 table #5: started
+2023/03/25-17:41:21.197 84fa Level-0 table #5: 1835583 bytes OK
+2023/03/25-17:41:21.198 84fa Delete type=0 #3
+2023/03/25-17:58:11.737 f838 Level-0 table #7: started
+2023/03/25-17:58:11.772 f838 Level-0 table #7: 1725159 bytes OK
+2023/03/25-17:58:11.774 f838 Delete type=0 #4
+2023/03/25-17:58:13.141 111d8 Compacting 1@1 + 1@2 files
+2023/03/25-17:58:13.152 111d8 Generated table #8@1: 1828 keys, 163125 bytes
+2023/03/25-17:58:13.152 111d8 Compacted 1@1 + 1@2 files => 163125 bytes
+2023/03/25-17:58:13.152 111d8 compacted to: files[ 0 0 1 0 0 0 0 ]

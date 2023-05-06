@@ -1,0 +1,22 @@
+#!/bin/bash
+q="$(echo | dmenu)"
+[ -z "$q" ] && exit 0
+e="${q%% *}"
+s=$(printf %s "${q#* }" | tr -d '\n' | od -t x1 -An |  tr ' ' '%')
+case $e in
+    's')
+            xprop -id $1 -f _SURF_GO 8s -set _SURF_GO "https://www.google.com/search?q=${s}"
+            ;;
+    'w')
+            xprop -id $1 -f _SURF_GO 8s -set _SURF_GO "https://en.wikipedia.org/wiki/index.php/Special:Search?search=${s}&go=Go"
+            ;;
+    'a')
+            xprop -id $1 -f _SURF_GO 8s -set _SURF_GO "https://wiki.archlinux.org/index.php/Special:Search?search=${s}&go=Go"
+            ;;
+    'd')
+            xprop -id $1 -f _SURF_GO 8s -set _SURF_GO "https://en.wiktionary.org/w/index.php?search=${s}&go=Go"
+            ;;
+    *)
+            exit 1
+            ;;
+esac

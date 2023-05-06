@@ -1,0 +1,6 @@
+2023/03/28-10:12:04.001 54b Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_docs.2fauth.app_0.indexeddb.leveldb since it was missing.
+2023/03/28-10:12:04.003 54b Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_docs.2fauth.app_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/28-12:44:19.150 222f Level-0 table #5: started
+2023/03/28-12:44:19.150 222f Level-0 table #5: 1659 bytes OK
+2023/03/28-12:44:19.151 222f Delete type=0 #3
+2023/03/28-12:44:19.152 222f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

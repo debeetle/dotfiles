@@ -1,0 +1,48 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x20\x2d\x2dhidden
+SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dcolor\x3dbg\x2b\x3a\x23ccd0da\x2cspinner\x3a\x23dc8a78\x2chl\x3a\x23d20f39\x20\x2d\x2dcolor\x3dfg\x3a\x234c4f69\x2cheader\x3a\x23d20f39\x2cinfo\x3a\x238839ef\x2cpointer\x3a\x23dc8a78\x20\x2d\x2dcolor\x3dmarker\x3a\x23dc8a78\x2cfg\x2b\x3a\x234c4f69\x2cprompt\x3a\x238839ef\x2chl\x2b\x3a\x23d20f39\x20\x2d\x2dinfo\x3dinline\x20\x2d\x2dreverse\x20\x2d\x2dansi\x20\x2d\x2dno\x2dunicode\x20\x2d\x2dno\x2dscrollbar\x20\x2d\x2dpreview\x2dwindow\x3d65\x25
+SETUVAR --export MANPAGER:less\x20\x2dR\x20\x2d\x2duse\x2dcolor\x20\x2dDd\x2br\x20\x2dDu\x2bb
+SETUVAR __fish_initialized:3400
+SETUVAR fish_color_autosuggestion:9ca0b0
+SETUVAR fish_color_cancel:d20f39
+SETUVAR fish_color_command:1e66f5
+SETUVAR fish_color_comment:8c8fa1
+SETUVAR fish_color_cwd:df8e1d
+SETUVAR fish_color_cwd_root:A00
+SETUVAR fish_color_end:fe640b
+SETUVAR fish_color_error:d20f39
+SETUVAR fish_color_escape:e64553
+SETUVAR fish_color_gray:9ca0b0
+SETUVAR fish_color_history_current:0AA
+SETUVAR fish_color_host:1e66f5
+SETUVAR fish_color_host_remote:\x1d
+SETUVAR fish_color_keyword:\x1d
+SETUVAR fish_color_match:0AA
+SETUVAR fish_color_normal:4c4f69
+SETUVAR fish_color_operator:ea76cb
+SETUVAR fish_color_option:\x1d
+SETUVAR fish_color_param:dd7878
+SETUVAR fish_color_quote:40a02b
+SETUVAR fish_color_redirection:ea76cb
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3dccd0da
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3dccd0da
+SETUVAR fish_color_status:d20f39
+SETUVAR fish_color_user:179299
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_background:\x1d
+SETUVAR fish_pager_color_completion:4c4f69
+SETUVAR fish_pager_color_description:9ca0b0
+SETUVAR fish_pager_color_prefix:ea76cb
+SETUVAR fish_pager_color_progress:9ca0b0
+SETUVAR fish_pager_color_secondary_background:\x1d
+SETUVAR fish_pager_color_secondary_completion:\x1d
+SETUVAR fish_pager_color_secondary_description:\x1d
+SETUVAR fish_pager_color_secondary_prefix:\x1d
+SETUVAR fish_pager_color_selected_background:\x1d
+SETUVAR fish_pager_color_selected_completion:\x1d
+SETUVAR fish_pager_color_selected_description:\x1d
+SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/home/trunk/\x2elocal/bin

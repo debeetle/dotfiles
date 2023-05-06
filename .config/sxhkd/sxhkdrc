@@ -1,0 +1,38 @@
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+control + super + shift + l
+        bash ~/Desktop/scripts/lock 
+control + shift + Escape
+        bash ~/Desktop/scripts/shutdown
+control + super + s
+        bash ~/Desktop/scripts/quicksearch
+super + shift + s
+        surf > /dev/null 2>&1
+# super + e
+#         alacritty --config-file /home/trunk/.config/alacritty/middle.yml -e ra
+        #super + c
+        #scrot -q 100
+super + s
+        tabbed -c surf -e > /dev/null 2>&1
+
+#control + shift + h
+        #xte "key Left"
+#control + shitf + j
+        #xte "key Down"
+#control + shift + k
+        #xte "key Up"
+#control + shift + l
+        #xte "key Right"
+#button9
+    #dwmc resizemouse 
+#button8
+    #dwmc movemouse
+#button8
+    #xte "keydown Alt_L"  
+
+
+#super + {h,l}
+        #dwmc setmfact {-,+}0.05
+        #st -g 150x50+$(random 0 300)+$(random 0 300) -e lfrun > /dev/null 2>&1

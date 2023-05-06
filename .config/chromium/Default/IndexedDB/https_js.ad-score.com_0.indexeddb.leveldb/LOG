@@ -1,0 +1,10 @@
+2023/03/13-12:36:14.020 7865 Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb since it was missing.
+2023/03/13-12:36:14.023 7865 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_js.ad-score.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/13-12:36:14.030 84d6 Level-0 table #5: started
+2023/03/13-12:36:14.032 84d6 Level-0 table #5: 1051 bytes OK
+2023/03/13-12:36:14.034 84d6 Delete type=0 #3
+2023/03/13-12:36:14.034 7865 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/03/13-12:36:43.926 8113 Level-0 table #7: started
+2023/03/13-12:36:43.927 8113 Level-0 table #7: 1770 bytes OK
+2023/03/13-12:36:43.928 8113 Delete type=0 #4
+2023/03/13-12:36:43.928 7865 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

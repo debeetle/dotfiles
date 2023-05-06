@@ -1,0 +1,17 @@
+# make file highlight
+pushover:
+    user_key: u62eh5djjji1s9it38sfagpukuessv
+    bilibili_token: adnzr4sfuz9ct4b826iion7rs3ae65
+    suckless_token: a5kaa33uebyrnjs74678oovyth4k49
+    阮一峰: ahzvcb26vd74c2g8d6m8boy6kgonqe
+
+ghelper:
+    subscribe: https://ghelper.me/clash/a95bcaa2ffa76654c26d7def1115227c
+    install_command: export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &>/dev/null
+
+fzf option:
+    set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#ccd0da,bg:#e0e0e0,spinner:#dc8a78,hl:#d20f39 \
+--color=fg:#4c4f69,header:#d20f39,info:#8839ef,pointer:#dc8a78 \
+--color=marker:#dc8a78,fg+:#4c4f69,prompt:#8839ef,hl+:#d20f39 \
+--algo=v1 --info=inline --reverse --ansi --no-unicode --multi --no-scrollbar --preview-window=70%"

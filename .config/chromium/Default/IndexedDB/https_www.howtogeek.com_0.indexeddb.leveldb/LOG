@@ -1,0 +1,6 @@
+2023/04/13-18:04:34.157 7dab Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_www.howtogeek.com_0.indexeddb.leveldb since it was missing.
+2023/04/13-18:04:34.158 7dab Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.howtogeek.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/13-18:16:18.754 c740 Level-0 table #5: started
+2023/04/13-18:16:18.761 c740 Level-0 table #5: 862329 bytes OK
+2023/04/13-18:16:18.763 c740 Delete type=0 #3
+2023/04/13-18:16:18.763 c740 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

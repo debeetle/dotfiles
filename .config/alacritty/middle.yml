@@ -1,0 +1,9 @@
+window: 
+  dimensions:
+    lines: 60
+    background_opacity: 1.0
+  position:
+    x: 1000
+    y: 450
+import:
+  - /home/trunk/.config/alacritty/alacritty.yml

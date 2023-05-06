@@ -1,0 +1,6 @@
+2023/04/29-11:12:41.554 458 Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_www.promptboom.com_0.indexeddb.leveldb since it was missing.
+2023/04/29-11:12:41.555 458 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.promptboom.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/29-11:12:41.894 28f0 Level-0 table #5: started
+2023/04/29-11:12:41.895 28f0 Level-0 table #5: 706 bytes OK
+2023/04/29-11:12:41.896 28f0 Delete type=0 #3
+2023/04/29-11:12:41.896 28f0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

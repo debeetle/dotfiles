@@ -1,0 +1,13 @@
+#!/bin/sh
+TMP=/tmp/dmenu.lock
+if [ -e $TMP ]; then
+    PID=$(cat $TMP)
+    pkill rofi
+    rm $TMP
+    kill -KILL $PID
+else
+    echo $$ > $TMP
+    kill -HUP $1
+    /usr/local/bin/rofi --show filebrowser
+fi
+exit 0

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/etc/avahi'
+let g:netrw_dirhist_6='/home/trunk/Downloads/hexk/rime'
+let g:netrw_dirhist_5='/home/trunk/Downloads'
+let g:netrw_dirhist_4='/home/trunk/.config/chromium/Webstore Downloads'
+let g:netrw_dirhist_3='/home/trunk'
+let g:netrw_dirhist_2='/home/trunk/.emacs.d'
+let g:netrw_dirhist_1='/home/trunk/.config/lf'
+let g:netrw_dirhist_0='/var/lib/bluetooth/D4:54:8B:DC:45:55/E0:5E:C5:DC:62:63'
+let g:netrw_dirhist_9='/var/lib/bluetooth/D4:54:8B:DC:45:55'
+let g:netrw_dirhist_8='/var/lib/bluetooth'

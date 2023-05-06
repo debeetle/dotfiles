@@ -1,0 +1,15 @@
+2023/04/25-20:16:23.315 421 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/25-20:16:23.316 421 Recovering log #7
+2023/04/25-20:16:23.316 421 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000007.log 
+2023/04/25-20:17:28.870 8915 Level-0 table #12: started
+2023/04/25-20:17:28.871 8915 Level-0 table #12: 5255 bytes OK
+2023/04/25-20:17:28.872 8915 Delete type=0 #7
+2023/04/25-20:17:28.872 8915 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/25-20:17:28.872 8915 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x1a\x00d\x00e\x00v\x00i\x00c\x00e\x00:\x00r\x00w\x00e\x00b\x00.\x00a\x00r\x00t\x00i\x00c\x00l\x00e\x00D\x00o\x00m\x00a\x00i\x00n\x00s' @ 503 : 0
+2023/04/25-20:17:28.872 8915 Compacting 1@1 + 1@2 files
+2023/04/25-20:17:28.872 8915 Generated table #13@1: 60 keys, 2521 bytes
+2023/04/25-20:17:28.872 8915 Compacted 1@1 + 1@2 files => 2521 bytes
+2023/04/25-20:17:28.873 8915 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/25-20:17:28.873 8915 Delete type=2 #9
+2023/04/25-20:17:28.873 8915 Delete type=2 #12
+2023/04/25-20:17:28.873 8915 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x1a\x00d\x00e\x00v\x00i\x00c\x00e\x00:\x00r\x00w\x00e\x00b\x00.\x00a\x00r\x00t\x00i\x00c\x00l\x00e\x00D\x00o\x00m\x00a\x00i\x00n\x00s' @ 503 : 0 .. (end); will stop at (end)

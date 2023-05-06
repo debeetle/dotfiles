@@ -1,0 +1,10 @@
+# fd anything but this list
+__pycache__
+*pyc
+containers
+webkitgtk
+man
+chromium
+.cache
+.git
+.gitignore

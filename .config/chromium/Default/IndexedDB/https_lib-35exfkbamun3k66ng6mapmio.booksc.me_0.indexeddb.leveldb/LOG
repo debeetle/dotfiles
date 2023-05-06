@@ -1,0 +1,6 @@
+2023/04/04-11:52:40.788 2b8e Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_lib-35exfkbamun3k66ng6mapmio.booksc.me_0.indexeddb.leveldb since it was missing.
+2023/04/04-11:52:40.791 2b8e Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_lib-35exfkbamun3k66ng6mapmio.booksc.me_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/04-12:56:09.963 2b8e Level-0 table #5: started
+2023/04/04-12:56:09.964 2b8e Level-0 table #5: 3414 bytes OK
+2023/04/04-12:56:09.965 2b8e Delete type=0 #3
+2023/04/04-12:56:09.965 2b8e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

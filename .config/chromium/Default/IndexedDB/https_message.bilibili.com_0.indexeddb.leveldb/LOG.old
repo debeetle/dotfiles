@@ -1,0 +1,7 @@
+2023/04/23-13:35:57.296 2f98 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/23-13:35:57.297 2f98 Recovering log #3
+2023/04/23-13:35:57.310 2f98 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_message.bilibili.com_0.indexeddb.leveldb/000003.log 
+2023/04/23-13:57:53.905 3609 Level-0 table #5: started
+2023/04/23-13:57:53.919 3609 Level-0 table #5: 318509 bytes OK
+2023/04/23-13:57:53.921 3609 Delete type=0 #3
+2023/04/23-13:57:53.921 3609 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

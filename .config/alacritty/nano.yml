@@ -1,0 +1,9 @@
+window: 
+  dimensions:
+    columns: 80
+    lines: 40
+  #position:
+    #x: 500
+    #y: 500
+import:
+  - /home/trunk/.config/alacritty/alacritty.yml

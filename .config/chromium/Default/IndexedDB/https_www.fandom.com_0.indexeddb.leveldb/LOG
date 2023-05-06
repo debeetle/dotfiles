@@ -1,0 +1,15 @@
+2023/04/10-09:23:34.881 fee Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/10-09:23:34.881 fee Recovering log #4
+2023/04/10-09:23:34.881 fee Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000004.log 
+2023/04/10-11:56:32.353 3cc8 Level-0 table #8: started
+2023/04/10-11:56:32.355 3cc8 Level-0 table #8: 5758 bytes OK
+2023/04/10-11:56:32.356 3cc8 Delete type=0 #4
+2023/04/10-11:56:32.356 3cc8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/10-11:56:32.356 3cc8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x03\x02\x03\x00\x00\x00\x00\x00\x004@' @ 569 : 1
+2023/04/10-11:56:32.356 3cc8 Compacting 1@1 + 1@2 files
+2023/04/10-11:56:32.357 3cc8 Generated table #9@1: 118 keys, 3971 bytes
+2023/04/10-11:56:32.357 3cc8 Compacted 1@1 + 1@2 files => 3971 bytes
+2023/04/10-11:56:32.358 3cc8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/10-11:56:32.358 3cc8 Delete type=2 #5
+2023/04/10-11:56:32.358 3cc8 Delete type=2 #8
+2023/04/10-11:56:32.358 3cc8 Manual compaction at level-1 from '\x00\x01\x03\x02\x03\x00\x00\x00\x00\x00\x004@' @ 569 : 1 .. (end); will stop at (end)

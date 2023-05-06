@@ -1,0 +1,7 @@
+2023/04/04-20:56:03.185 86d Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/04-20:56:03.185 86d Recovering log #3
+2023/04/04-20:56:03.186 86d Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2023/04/04-21:06:49.863 1726 Level-0 table #5: started
+2023/04/04-21:06:49.874 1726 Level-0 table #5: 1661457 bytes OK
+2023/04/04-21:06:49.875 1726 Delete type=0 #3
+2023/04/04-21:06:49.875 1726 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

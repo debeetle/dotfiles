@@ -1,0 +1,15 @@
+2023/04/14-16:05:52.802 7c8 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_v.flomoapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/14-16:05:52.802 7c8 Recovering log #11
+2023/04/14-16:05:52.802 7c8 Reusing old log /home/trunk/.config/chromium/Default/IndexedDB/https_v.flomoapp.com_0.indexeddb.leveldb/000011.log 
+2023/04/14-16:06:01.279 7206 Level-0 table #16: started
+2023/04/14-16:06:01.281 7206 Level-0 table #16: 12648 bytes OK
+2023/04/14-16:06:01.282 7206 Delete type=0 #11
+2023/04/14-16:06:01.282 7206 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/14-16:06:01.282 7206 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01 \x03\x00P:\xca\xecwxB\x00\x01B\x00i\x00m\x00a\x00g\x00e\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00v\x00.\x00f\x00l\x00o\x00m\x00o\x00a\x00p\x00p\x00.\x00c\x00o\x00m\x00/\x00i\x00m\x00g\x00/\x00i\x00c\x00o\x00n\x00s\x00/\x00a\x00n\x00d\x00r\x00o\x00i\x00d\x00-\x00c\x00h\x00r\x00o\x00m\x00e\x00-\x001\x009\x002\x00x\x001\x009\x002\x00.\x00p\x00n\x00g' @ 5590 : 1
+2023/04/14-16:06:01.282 7206 Compacting 1@1 + 1@2 files
+2023/04/14-16:06:01.283 7206 Generated table #17@1: 1029 keys, 37453 bytes
+2023/04/14-16:06:01.283 7206 Compacted 1@1 + 1@2 files => 37453 bytes
+2023/04/14-16:06:01.284 7206 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/14-16:06:01.284 7206 Delete type=2 #13
+2023/04/14-16:06:01.284 7206 Delete type=2 #16
+2023/04/14-16:06:01.284 7206 Manual compaction at level-1 from '\x00\x03\x01 \x03\x00P:\xca\xecwxB\x00\x01B\x00i\x00m\x00a\x00g\x00e\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00v\x00.\x00f\x00l\x00o\x00m\x00o\x00a\x00p\x00p\x00.\x00c\x00o\x00m\x00/\x00i\x00m\x00g\x00/\x00i\x00c\x00o\x00n\x00s\x00/\x00a\x00n\x00d\x00r\x00o\x00i\x00d\x00-\x00c\x00h\x00r\x00o\x00m\x00e\x00-\x001\x009\x002\x00x\x001\x009\x002\x00.\x00p\x00n\x00g' @ 5590 : 1 .. (end); will stop at (end)

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+test -s "$HOME"/.dmenurc && . "$HOME"/.dmenurc
+
+cmd="$(dmenu_path | dmenu -z 1000 -x 1420 -y 800 -wm "$@")"
+
+case $cmd in
+    *\!) "${TERMINAL:-alacritty}" -e "${cmd%?}" & ;;
+    *)   "${cmd}" & ;;
+esac

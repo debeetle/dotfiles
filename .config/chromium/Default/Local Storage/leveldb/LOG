@@ -1,0 +1,48 @@
+2023/05/03-11:24:34.373 3 Reusing MANIFEST /home/trunk/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2023/05/03-11:24:34.374 3 Recovering log #3088
+2023/05/03-11:24:34.374 3 Reusing old log /home/trunk/.config/chromium/Default/Local Storage/leveldb/003088.log 
+2023/05/03-11:24:47.535 3 Level-0 table #3092: started
+2023/05/03-11:24:47.539 3 Level-0 table #3092: 28207 bytes OK
+2023/05/03-11:24:47.542 3 Delete type=0 #3088
+2023/05/03-11:24:47.543 3 Compacting 4@0 + 3@1 files
+2023/05/03-11:24:47.569 3 Generated table #3093@0: 1677 keys, 2389886 bytes
+2023/05/03-11:24:47.604 3 Generated table #3094@0: 2758 keys, 2310186 bytes
+2023/05/03-11:24:47.636 3 Generated table #3095@0: 9854 keys, 2437037 bytes
+2023/05/03-11:24:47.636 3 Compacted 4@0 + 3@1 files => 7137109 bytes
+2023/05/03-11:24:47.637 3 compacted to: files[ 0 5 1 0 0 0 0 ]
+2023/05/03-11:24:47.639 3 Delete type=2 #3079
+2023/05/03-11:24:47.639 3 Delete type=2 #3080
+2023/05/03-11:24:47.639 3 Delete type=2 #3081
+2023/05/03-11:24:47.639 3 Delete type=2 #3085
+2023/05/03-11:24:47.639 3 Delete type=2 #3087
+2023/05/03-11:24:47.639 3 Delete type=2 #3089
+2023/05/03-11:24:47.639 3 Delete type=2 #3092
+2023/05/03-12:07:09.064 5 Level-0 table #3097: started
+2023/05/03-12:07:09.071 5 Level-0 table #3097: 21150 bytes OK
+2023/05/03-12:07:09.073 5 Delete type=0 #3091
+2023/05/03-12:44:43.087 5 Level-0 table #3099: started
+2023/05/03-12:44:43.092 5 Level-0 table #3099: 22313 bytes OK
+2023/05/03-12:44:43.095 5 Delete type=0 #3096
+2023/05/03-14:21:43.264 5 Level-0 table #3101: started
+2023/05/03-14:21:43.269 5 Level-0 table #3101: 21988 bytes OK
+2023/05/03-14:21:43.273 5 Delete type=0 #3098
+2023/05/03-15:53:03.242 5 Level-0 table #3103: started
+2023/05/03-15:53:03.246 5 Level-0 table #3103: 19423 bytes OK
+2023/05/03-15:53:03.250 5 Delete type=0 #3100
+2023/05/03-15:53:03.250 5 Compacting 4@0 + 5@1 files
+2023/05/03-15:53:03.278 5 Generated table #3104@0: 1679 keys, 2388576 bytes
+2023/05/03-15:53:03.313 5 Generated table #3105@0: 2758 keys, 2310347 bytes
+2023/05/03-15:53:03.347 5 Generated table #3106@0: 9965 keys, 2436715 bytes
+2023/05/03-15:53:03.391 5 Generated table #3107@0: 514 keys, 2566958 bytes
+2023/05/03-15:53:03.394 5 Generated table #3108@0: 77 keys, 13328 bytes
+2023/05/03-15:53:03.394 5 Compacted 4@0 + 5@1 files => 9715924 bytes
+2023/05/03-15:53:03.396 5 compacted to: files[ 0 5 1 0 0 0 0 ]
+2023/05/03-15:53:03.397 5 Delete type=2 #3082
+2023/05/03-15:53:03.397 5 Delete type=2 #3083
+2023/05/03-15:53:03.397 5 Delete type=2 #3093
+2023/05/03-15:53:03.397 5 Delete type=2 #3094
+2023/05/03-15:53:03.397 5 Delete type=2 #3095
+2023/05/03-15:53:03.397 5 Delete type=2 #3097
+2023/05/03-15:53:03.397 5 Delete type=2 #3099
+2023/05/03-15:53:03.397 5 Delete type=2 #3101
+2023/05/03-15:53:03.397 5 Delete type=2 #3103

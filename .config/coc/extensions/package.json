@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-vimtex": ">=1.1.5",
+    "coc-browser": ">=1.5.0"
+  }
+}

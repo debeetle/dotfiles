@@ -1,0 +1,13 @@
+__build_info:
+  rime_version: 1.8.5
+  timestamps:
+    fcitx5: 1682489257
+    fcitx5.custom: 1683031555
+app_options:
+  {}
+config_version: 0.22
+style:
+  inline_candidate: true
+  inline_preedit: true
+  inline_preview: true
+  preedit_type: preview

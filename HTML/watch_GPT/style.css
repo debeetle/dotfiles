@@ -1,0 +1,77 @@
+.watch {
+	width: 312px;
+	height: 390px;
+	background-color: #f6f6f6;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.screen {
+	width: 272px;
+	height: 340px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.status-bar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 10px;
+}
+
+.time {
+	font-weight: bold;
+}
+
+.battery {
+	font-weight: bold;
+}
+
+.app-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.app-icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+
+.app-icon img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+.app-name {
+	font-size: 12px;
+	text-align: center;
+}
+
+.dock {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color: #f6f6f6;
+}
+.app-icon.animate {
+	transform: scale(1.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+

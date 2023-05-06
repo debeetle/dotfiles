@@ -1,0 +1,6 @@
+2023/03/18-11:27:01.864 450 Creating DB /home/trunk/.config/chromium/Default/IndexedDB/https_yeasy.gitbook.io_0.indexeddb.leveldb since it was missing.
+2023/03/18-11:27:01.869 450 Reusing MANIFEST /home/trunk/.config/chromium/Default/IndexedDB/https_yeasy.gitbook.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/18-14:00:24.671 62d2 Level-0 table #5: started
+2023/03/18-14:00:24.673 62d2 Level-0 table #5: 89962 bytes OK
+2023/03/18-14:00:24.674 62d2 Delete type=0 #3
+2023/03/18-14:00:24.675 62d2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

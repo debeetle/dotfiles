@@ -1,0 +1,32 @@
+env:
+  TERM: xterm-256color
+live_config_reload: false
+window: 
+  dimensions:
+    columns: 400
+    lines: 100
+    #background-opacity: 0.95
+  dynamic_padding: true
+  decorations: none
+  #position:
+    #x: 250
+    #y: 250
+mouse:
+  enable: true
+font:
+  normal:
+    family: "UbuntuMono Nerd Font"
+  size: 8.5
+
+cursor:
+  unfocused_hollow: true
+
+debug:
+  log_level: OFF
+  render_timer: false
+  persistent_logging: false
+  print_events: false
+  ref_test: false
+import:
+  #- /home/trunk/.config/alacritty/dracula.yml
+  - /home/trunk/.config/alacritty/latte.yml
